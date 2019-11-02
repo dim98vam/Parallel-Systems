@@ -19,7 +19,7 @@ void swapPoints(double* array1,double* array2,int dim){
 
 /*definition and initialization of variables such as attr used in threading*/
 #define NUM_THREADS 36
-#define numOfThreads 4
+#define numOfThreads 2
 int counter;
 pthread_attr_t attr;
 pthread_mutex_t mutexcounter;
